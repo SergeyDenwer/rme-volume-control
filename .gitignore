@@ -1,5 +1,5 @@
 .env
-volume_state.txt
+rme_device_state.json
 *.pyc
 __pycache__/
 .DS_Store
