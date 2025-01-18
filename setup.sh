@@ -36,10 +36,8 @@ EOF
 launchctl unload ~/Library/LaunchAgents/com.user.rme.volumecontrol.plist 2>/dev/null
 launchctl load ~/Library/LaunchAgents/com.user.rme.volumecontrol.plist
 
-sudo ln -sf $(pwd)/main.py /usr/local/bin/rme-volume
-
 echo "Installation complete!"
 echo "1. Edit .env file if needed"
 echo "2. Use commands:"
-echo "   rme-volume up"
-echo "   rme-volume down"
+echo "   main.py up"
+echo "   main.py down"
