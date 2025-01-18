@@ -33,7 +33,6 @@ Allows you to adjust volume via command line (or keyboard shortcuts) and keep th
    - Install required Python packages (using `pip install -r requirements.txt`)
    - Create a `.env` file if it doesn't exist
    - Create and load the `launchd` service
-   - Symlink `main.py` to `/usr/local/bin/rme-volume`
 
 3. **Adjust `.env`** if needed:
    ```bash
@@ -47,8 +46,8 @@ Allows you to adjust volume via command line (or keyboard shortcuts) and keep th
 
 After installation, you can run:
 ```bash
-rme-volume up
-rme-volume down
+main.py up
+main.py down
 ```
 The daemon runs in the background and keeps the MIDI connection open for fast response.
 
